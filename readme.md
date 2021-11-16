@@ -5,7 +5,9 @@ Ce document permet de realiser le projet Born2beroot.
 
 ## VirutalBox
 VDI
+
 Dynamicallz allocated
+
 Select image
 
 ## Debian
