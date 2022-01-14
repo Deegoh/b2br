@@ -6,7 +6,7 @@ Ce document permet de realiser le projet Born2beroot.
 ## VirutalBox
 VDI\
 Dynamicallz allocated\
-Select image\
+Select image
 
 ## Debian
 Install\
@@ -22,14 +22,14 @@ Root pwd:....\
 Full name:tpinto-m42\
 Username:tpinto-m42\
 user:pwd\
-//time zone:\
 Partioning method: Manual\
 Select disk (SCSI1)\
 Create empty partition:YES\
 Select avalible space\
-Create a new partition:\
-- 500M primary - beginning - /boot\
+Create a new partition:
+- 500M primary - beginning - /boot
 - Max logical - beginning - none(do not mount it)\
+
 Configure encrypted volumes\
 Yes\
 Create encrypted volumes\
@@ -40,10 +40,11 @@ Really erase the data on this partition - yes\
 Encryption passphrase - add pwd\
 Configure the Logical Volume Manager\
 yes\
-create volume group\
+create volume group
 - LVMGroup\
+
 Select sda5_crypt\
-create logical volume\
+create logical volume
 - root 2G\
 - swap 1024M\
 - home 1G\
@@ -51,6 +52,7 @@ create logical volume\
 - srv 1G\
 - tmp 1G\
 - var-log rest\
+
 Finish\
 Select 1# disk\
 Use as ext4 journaling\
